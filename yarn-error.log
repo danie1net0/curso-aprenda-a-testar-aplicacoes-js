@@ -1,0 +1,47 @@
+Arguments: 
+  /home/daniel/.nvm/versions/node/v16.13.0/bin/node /home/daniel/.nvm/versions/node/v16.13.0/bin/yarn add -D jest @type/jest
+
+PATH: 
+  /home/daniel/.nvm/versions/node/v16.13.0/bin:/home/daniel/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@type%2fjest: Not found
+      at Request.params.callback [as _callback] (/home/daniel/.nvm/versions/node/v16.13.0/lib/node_modules/yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/home/daniel/.nvm/versions/node/v16.13.0/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/home/daniel/.nvm/versions/node/v16.13.0/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/home/daniel/.nvm/versions/node/v16.13.0/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "modulo-01",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
